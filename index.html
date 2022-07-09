@@ -51,6 +51,18 @@
             color:white;
             background-color:purple;
         } 
+        .special::after{
+            content: ' This is after pseudo';
+            background-color: green;
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+        }
+        .special-before::before{
+            content: 'This is before content ';
+            background-color: yellow;
+            color: brown;
+        }
     </style>
 </head>
 <body>
@@ -88,6 +100,12 @@
         <li>Hello World</li>
         <li>Hello World</li>
         <li>Hello World</li>
-    </ul>
+    </ul> <br>
+    <h1 class="special">Hello World</h1>
+    <h1 class="special">Hello World</h1>
+    <h1>Hello World</h1>
+    <h1 class="special-before">Hello World</h1>
+    <h1>Hello World</h1>
+    
 </body>
 </html>
